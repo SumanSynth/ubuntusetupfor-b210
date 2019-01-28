@@ -12,9 +12,9 @@ run in terminal:
     
     cd ubuntusetupfor-b210
     
-    sudo chmod +x xyz.sh
+    sudo chmod +x 0-Run-me.sh
     
-    ./xyz.sh
+    ./0-Run-me.sh
     
     
 Sit back and relax!
