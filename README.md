@@ -2,7 +2,7 @@
 Install essential tools (GNU Radio and blocks) and driver for USRP B210
 
 ## Important 
-Disable secure boot in BIOS to run wifi card driver properly.
+Disable secure boot in BIOS to run driver properly.
 
 ## How to install
 run in terminal:
