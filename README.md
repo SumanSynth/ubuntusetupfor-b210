@@ -17,4 +17,4 @@ run in terminal:
     ./0-Run-me.sh
     
     
-Sit back and relax!
+After This run each script manually and follow instructions.
