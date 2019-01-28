@@ -13,3 +13,4 @@ sudo chmod +x 5installdvbs2.sh
 sudo chmod +x 6installdvbt2.sh
 sudo chmod +x 7installuhd.sh
 sudo chmod +x 8set_uhd_env.sh
+
