@@ -6,7 +6,6 @@
 ##################################################
 
 sudo chmod +x 1beforeboot.sh
-sudo chmod +x 2afterboot.sh
 sudo chmod +x 3installgnuradio.sh
 sudo chmod +x 4installdvbs.sh
 sudo chmod +x 5installdvbs2.sh
