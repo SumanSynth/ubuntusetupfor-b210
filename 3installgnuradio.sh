@@ -5,35 +5,35 @@
 # Generated: Wed Nov  1 11:52:29 2017
 ##################################################
 sudo apt-get update
-
+sudo apt-get install gnuradio
 #Building and installing GNU Radio from source code
 
-mkdir workarea-gnuradio
-cd workarea-gnuradio
+#mkdir workarea-gnuradio
+#cd workarea-gnuradio
 
-git clone --recursive https://github.com/gnuradio/gnuradio
-cd gnuradio
+#git clone --recursive https://github.com/gnuradio/gnuradio
+#cd gnuradio
 
-git tag -l
+#git tag -l
 
-echo "Example: For GNU Radiov 3.7.10.1:"
-echo "write v3.7.10.1"
-echo -e "Please enter release version : "
-read version
-git checkout $version
+#echo "Example: For GNU Radiov 3.7.10.1:"
+#echo "write v3.7.10.1"
+#echo -e "Please enter release version : "
+#read version
+#git checkout $version
 
-mkdir build
-cd build
+#mkdir build
+#cd build
 
-cmake ../
-make
-make test
-sudo make install
-sudo ldconfig
+#cmake ../
+#make
+#make test
+#sudo make install
+#sudo ldconfig
 
-gnuradio-config-info --version
-gnuradio-config-info --prefix
-gnuradio-config-info --enabled-components
+#gnuradio-config-info --version
+#gnuradio-config-info --prefix
+#gnuradio-config-info --enabled-components
 
 
 #gnuradio-companion
@@ -43,10 +43,10 @@ gnuradio-config-info --enabled-components
 
 #sudo apt-get update
 #configuring usb
-cd $HOME/workarea-uhd/uhd/host/utils
-sudo cp uhd-usrp.rules /etc/udev/rules.d/
-sudo udevadm control --reload-rules
-sudo udevadm trigger
+#cd $HOME/workarea-uhd/uhd/host/utils
+#sudo cp uhd-usrp.rules /etc/udev/rules.d/
+#sudo udevadm control --reload-rules
+#sudo udevadm trigger
 
 echo "Done"
 
